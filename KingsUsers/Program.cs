@@ -67,8 +67,8 @@ using (var scope = app.Services.CreateScope())
     dbContext.Database.Migrate();
 
     // Seed the database
-
-    SeedData(dbContext);
+    if (!dbContext.Users.Any())
+      SeedData(dbContext);
 }
 
 app.UseExceptionHandler(applicationBuilder =>

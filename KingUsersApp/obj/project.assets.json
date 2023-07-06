@@ -5100,11 +5100,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\King\\KingUsers\\KingUsersApp\\KingUsersApp.csproj",
+      "projectUniqueName": "C:\\Users\\Gerald\\Source\\Repos\\KU\\KingUsersApp\\KingUsersApp.csproj",
       "projectName": "KingUsersApp",
-      "projectPath": "C:\\King\\KingUsers\\KingUsersApp\\KingUsersApp.csproj",
+      "projectPath": "C:\\Users\\Gerald\\Source\\Repos\\KU\\KingUsersApp\\KingUsersApp.csproj",
       "packagesPath": "C:\\Users\\Gerald\\.nuget\\packages\\",
-      "outputPath": "C:\\King\\KingUsers\\KingUsersApp\\obj\\",
+      "outputPath": "C:\\Users\\Gerald\\Source\\Repos\\KU\\KingUsersApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
