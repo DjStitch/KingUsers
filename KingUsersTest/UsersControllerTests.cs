@@ -2,14 +2,9 @@
 using KingsUsers.Exceptions;
 using KingsUsers.Interfaces;
 using KingsUsers.Models;
-using Microsoft.AspNetCore.Mvc;
 using Moq;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Xunit;
 
-namespace KingsUsers.Tests
+namespace KingUsersTest
 {
     public class UsersControllerTests
     {
