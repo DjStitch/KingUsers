@@ -1,4 +1,4 @@
-# KingUsers
+# King-Users
 
 Welcome to KingUsers! This project aims to demonstrate a simple .NET 6 API Backend and Blazor WASM Frontend. 
 This project is based on a simple development test that was assigned. 
