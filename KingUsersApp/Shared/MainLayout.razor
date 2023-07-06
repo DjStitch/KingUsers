@@ -5,16 +5,16 @@
 <RadzenTooltip/>
 <RadzenLayout >
     <RadzenHeader  >
-        <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" Gap="2">
+        <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" Gap="20">
             <RadzenSidebarToggle Click="@(() => _sidebar1Expanded = !_sidebar1Expanded)" />
             <RadzenLabel Text="Kings-Users" />
         </RadzenStack>
     </RadzenHeader>
     <div class="rz-shadow-7">
-    <RadzenSidebar   @bind-Expanded="@_sidebar1Expanded">
+    <RadzenSidebar    @bind-Expanded="@_sidebar1Expanded">
         <RadzenPanelMenu>
             <RadzenPanelMenuItem Text="Home" Path="/" Icon="home" />
-            <RadzenPanelMenuItem Text="Kings on display" Path="KingsList" Icon="account_box" />
+            <RadzenPanelMenuItem Text="Gather the Kings" Path="KingsList" Icon="account_box" />
         </RadzenPanelMenu>
     </RadzenSidebar>
     </div>
@@ -32,9 +32,16 @@
     protected override void OnInitialized()
     {
 
-        _sidebar1Expanded = false;
+        //_sidebar1Expanded = false;
 
         base.OnInitialized();
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+
+        _sidebar1Expanded = false;
+        base.OnAfterRender(firstRender);
     }
 
 }
