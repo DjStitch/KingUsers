@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = KingUsersApp
 build_property.RootNamespace = KingUsersApp
-build_property.ProjectDir = c:\King\KingUsers\KingUsersApp\
+build_property.ProjectDir = C:\King\KingUsers\KingUsersApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\King\KingUsers\KingUsersApp
+build_property.MSBuildProjectDirectory = C:\King\KingUsers\KingUsersApp
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/King/KingUsers/KingUsersApp/App.razor]
+[C:/King/KingUsers/KingUsersApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/King/KingUsers/KingUsersApp/Pages/Counter.razor]
+[C:/King/KingUsers/KingUsersApp/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/King/KingUsers/KingUsersApp/Pages/FetchData.razor]
+[C:/King/KingUsers/KingUsersApp/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/King/KingUsers/KingUsersApp/Pages/Index.razor]
+[C:/King/KingUsers/KingUsersApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/King/KingUsers/KingUsersApp/Pages/KingsList.razor]
+[C:/King/KingUsers/KingUsersApp/Pages/KingsList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2luZ3NMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/King/KingUsers/KingUsersApp/Shared/SurveyPrompt.razor]
+[C:/King/KingUsers/KingUsersApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/King/KingUsers/KingUsersApp/_Imports.razor]
+[C:/King/KingUsers/KingUsersApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/King/KingUsers/KingUsersApp/Shared/MainLayout.razor]
+[C:/King/KingUsers/KingUsersApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-y4bs833g6f
 
-[c:/King/KingUsers/KingUsersApp/Shared/NavMenu.razor]
+[C:/King/KingUsers/KingUsersApp/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-qckx8gmoki

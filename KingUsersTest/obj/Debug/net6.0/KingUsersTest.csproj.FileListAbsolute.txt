@@ -190,3 +190,12 @@ C:\King\KingUsersTest\obj\Debug\net6.0\refint\KingUsersTest.dll
 C:\King\KingUsersTest\obj\Debug\net6.0\KingUsersTest.pdb
 C:\King\KingUsersTest\obj\Debug\net6.0\KingUsersTest.genruntimeconfig.cache
 C:\King\KingUsersTest\obj\Debug\net6.0\ref\KingUsersTest.dll
+C:\King\KingUsers\KingUsersTest\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\King\KingUsers\KingUsersTest\obj\Debug\net6.0\KingUsersTest.csproj.AssemblyReference.cache
+C:\King\KingUsers\KingUsersTest\obj\Debug\net6.0\KingUsersTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\King\KingUsers\KingUsersTest\obj\Debug\net6.0\KingUsersTest.AssemblyInfoInputs.cache
+C:\King\KingUsers\KingUsersTest\obj\Debug\net6.0\KingUsersTest.AssemblyInfo.cs
+C:\King\KingUsers\KingUsersTest\obj\Debug\net6.0\KingUsersTest.csproj.CoreCompileInputs.cache
+C:\King\KingUsers\KingUsersTest\obj\Debug\net6.0\KingUsersTest.dll
+C:\King\KingUsers\KingUsersTest\obj\Debug\net6.0\refint\KingUsersTest.dll
+C:\King\KingUsers\KingUsersTest\obj\Debug\net6.0\KingUsersTest.pdb
