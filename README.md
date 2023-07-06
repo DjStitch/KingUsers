@@ -37,12 +37,20 @@ Create a database using code-first (SQL database).
 - [x] A user should be able to appear in multiple groups, and conversely, there should be multiple users in a group.
 - [x] Each group should have multiple permissions (e.g., Level 1, Level 2, etc.) and group names.
 
+      
+![Screenshot 1](/Images/DbStructure.png)
+      
+
 ### Task 2
 
 Create a simple web service that supports user management (Add, Remove, Update).
 
 - [x] Add endpoints for user count and the number of users per group count.
 - [x] Use the .NET framework or .NET Core.
+
+      
+ ![Screenshot 1](/Images/Api.png)
+     
 
 ### Task 3
 
@@ -51,6 +59,9 @@ Create a web interface where users can be added, edited, and deleted.
 - [x] The visual aspect is not important.
 - [x] Use the Web API created in Task 2.
 - [x] Use the .NET framework or .NET Core.
+
+      
+ ![Screenshot 1](/Images/InlineEditGridList)
 
 **Extra Points:**
 
@@ -74,6 +85,5 @@ KingUsers is licensed under the [MIT License](LICENSE).
 
 ## Screenshots
 
-![Screenshot 1](/Images/DbStructure.png)
 
 
