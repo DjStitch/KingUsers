@@ -31,7 +31,7 @@ public class UsersControllerTests
             .ReturnsAsync(users);
 
         // Act
-        var result = await _controller.GetAllUsers(new PaginationParameters());
+        var result = await _controller.SearchAllUsers(new PaginationParameters());
 
         // Assert
         var okResult = Assert.IsType<OkObjectResult>(result);
@@ -122,7 +122,7 @@ public class UsersControllerTests
             .ReturnsAsync(userCount);
 
         // Act
-        var result = await _controller.GetUserCount();
+        var result = await _controller.UserCount();
 
         // Assert
         var okResult = Assert.IsType<OkObjectResult>(result);
@@ -143,7 +143,7 @@ public class UsersControllerTests
             .ReturnsAsync(groupCounts);
 
         // Act
-        var result = await _controller.GetUsersPerGroupCount();
+        var result = await _controller.UsersPerGroupCount();
 
         // Assert
         var okResult = Assert.IsType<OkObjectResult>(result);
