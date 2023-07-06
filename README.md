@@ -61,7 +61,7 @@ Create a web interface where users can be added, edited, and deleted.
 - [x] Use the .NET framework or .NET Core.
 
       
- ![Screenshot 1](/Images/InlineEditGridList)
+ ![Screenshot 1](/Images/InlineEditGridList.png)
 
 **Extra Points:**
 
