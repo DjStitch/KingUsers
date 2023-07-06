@@ -1,9 +1,9 @@
 # King-Users
 
+Welcome to KingUsers! This project aims to demonstrate a simple .NET 6 API Backend and Blazor WASM Frontend. 
 
 ![Screenshot 1](/Images/LandingPage.png)
 
-Welcome to KingUsers! This project aims to demonstrate a simple .NET 6 API Backend and Blazor WASM Frontend. 
 This project is based on a simple development test that was assigned. 
 Built with the quickest basic implementation.
 
@@ -13,7 +13,7 @@ Built with the quickest basic implementation.
 
 - [Installation](#installation)
 - [Development Tasks](#development-tasks)
-- [ToDoList](#todo)
+- [ToDo List](#todo-list)
 - [Screenshots](#screenshots)
 
 ## Installation
@@ -72,6 +72,9 @@ Create a web interface where users can be added, edited, and deleted.
 KingUsers is licensed under the [MIT License](LICENSE).
 
 ## Screenshots
+
+![Screenshot 1](/Images/DbStructure.png)
+
 
 Here are a few screenshots of the KingUsers application:
 
