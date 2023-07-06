@@ -1,0 +1,17 @@
+﻿<div class="alert alert-secondary mt-4">
+    <RadzenGravatar Email="ggreyvensteinemail@gmail.com" class="rz-shadow-5" />
+
+    <strong>@Title</strong>
+
+    <span class="text-nowrap">
+        for more details click here -->
+        <a target="_blank" class="font-weight-bold link-dark" href="https://bold.pro/my/gerald-greyvenstein">Resume</a>
+    </span>
+    
+</div>
+
+@code {
+    // Demonstrates how a parent component can supply parameters
+    [Parameter]
+    public string? Title { get; set; }
+}

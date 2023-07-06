@@ -1,0 +1,71 @@
+﻿@page "/KingsList"
+@using ApiClient
+
+
+<PageTitle>Kings Users List</PageTitle>
+<HeadContent>
+    <meta name="description" content="King Users List">
+</HeadContent>
+
+
+<RadzenText TextStyle="TextStyle.H3" TagName="TagName.H1" class="rz-pt-8">
+    The Legendary King List
+</RadzenText>
+<RadzenText TextStyle="TextStyle.Subtitle1" class="rz-pb-4">
+    Maintaining console made for <strong>Kings</strong> component.
+</RadzenText>
+
+<RadzenCard Class="rz-my-12 rz-mx-auto">
+    <RadzenButton ButtonStyle="ButtonStyle.Success" Icon="add_circle_outline" class="mt-2 mb-4" Text="Add a new KING" Click="@InsertRow" Disabled="@(_userToInsert != null || _userToUpdate != null)"/>
+    <RadzenDataGrid @ref="_kingUsersGrid" GridLines="DataGridGridLines.Both" AllowAlternatingRows="true" AllowFiltering="true" AllowPaging="false" PageSize="100" AllowSorting="true" EditMode="DataGridEditMode.Single"
+                    Data="@_kingUsers" TItem="User" RowUpdate="@OnUpdateRow" RowCreate="@OnCreateRow" Sort="@Reset" Page="@Reset" Filter="@Reset" ColumnWidth="200px">
+
+@*        <GroupHeaderTemplate>
+            @context.GroupDescriptor.GetTitle(): @(context.Data.Key ?? ""), Group items count: @context.Data.Count, Last order date: @(context.Data.Items.Cast<User>().OrderByDescending(o => o.UserGroups.FirstOrDefault().Group.GroupName).FirstOrDefault()?.UserGroups.FirstOrDefault().Group.GroupName)
+        </GroupHeaderTemplate>
+*@        <Columns>
+            <RadzenDataGridColumn TItem="User" Property="FirstName" Title="First Name" Width="120px">
+                <EditTemplate Context="user">
+                    <RadzenTextBox @bind-Value="user.FirstName" Data="@_kingUsers" TextProperty="FirstName" ValueProperty="FirstName" Style="display: block; width: 100%;" />
+                </EditTemplate>
+            </RadzenDataGridColumn>
+
+            <RadzenDataGridColumn TItem="User" Property="LastName" Title="Last Name" Width="280px">
+                <EditTemplate Context="user">
+                    <RadzenTextBox @bind-Value="user.LastName" Data="@_kingUsers" TextProperty="LastName" ValueProperty="LastName" Style="display: block; width: 100%;" />
+                </EditTemplate>
+            </RadzenDataGridColumn>
+
+            <RadzenDataGridColumn TItem="User" Property="Address" Title="Address" Width="280px">
+                <EditTemplate Context="user">
+                    <RadzenDropDown @bind-Value="user.Address" Data="@_kingUsers" TextProperty="Address" ValueProperty="Address" Style="display: block; width: 100%;" />
+                </EditTemplate>
+            </RadzenDataGridColumn>
+
+            <RadzenDataGridColumn TItem="User" Property="About" Title="Bio" Width="280px">
+                <EditTemplate Context="user">
+                    <RadzenTextBox @bind-Value="user.About" Data="@_kingUsers" TextProperty="About" ValueProperty="About" Style="display: block; width: 100%;" />
+                </EditTemplate>
+            </RadzenDataGridColumn>
+
+            <RadzenDataGridColumn TItem="User" Context="user" Filterable="false" Sortable="false" TextAlign="TextAlign.Right" Width="156px">
+                <Template Context="user">
+                    <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium" Click="@(args => EditRow(user))" @onclick:stopPropagation="true">
+                    </RadzenButton>
+                    <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Variant="Variant.Flat" Shade="Shade.Lighter" Size="ButtonSize.Medium" class="my-1 ms-1" Click="@(args => DeleteRow(user))" @onclick:stopPropagation="true">
+                    </RadzenButton>
+                </Template>
+                <EditTemplate Context="user">
+                    <RadzenButton Icon="check" ButtonStyle="ButtonStyle.Success" Variant="Variant.Flat" Size="ButtonSize.Medium" Click="@(args => SaveRow(user))">
+                    </RadzenButton>
+                    <RadzenButton Icon="close" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium" class="my-1 ms-1" Click="@(args => CancelEdit(user))">
+                    </RadzenButton>
+                    <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Variant="Variant.Flat" Shade="Shade.Lighter" Size="ButtonSize.Medium" class="my-1 ms-1" Click="@(args => DeleteRow(user))">
+                    </RadzenButton>
+                </EditTemplate>
+            </RadzenDataGridColumn>
+        </Columns>
+    </RadzenDataGrid>
+
+
+</RadzenCard>
