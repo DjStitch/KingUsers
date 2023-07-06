@@ -1,0 +1,28 @@
+﻿Rebuild started...
+1>------ Rebuild All started: Project: KingUsersApp, Configuration: Debug Any CPU ------
+2>------ Rebuild All started: Project: KingsUsers, Configuration: Debug Any CPU ------
+Restored C:\King\KingUsers\KingUsersTest\KingUsersTest.csproj (in 350 ms).
+Restored C:\King\KingUsers\KingUsersApp\KingUsersApp.csproj (in 356 ms).
+Restored C:\King\KingUsers\KingsUsers\KingsUsers.csproj (in 347 ms).
+2>C:\King\KingUsers\KingsUsers\Models\Group.cs(9,19,9,28): warning CS8618: Non-nullable property 'GroupName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
+2>C:\King\KingUsers\KingsUsers\Models\Group.cs(11,35,11,45): warning CS8618: Non-nullable property 'UserGroups' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
+2>C:\King\KingUsers\KingsUsers\Models\Group.cs(12,41,12,57): warning CS8618: Non-nullable property 'GroupPermissions' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
+2>C:\King\KingUsers\KingsUsers\Models\UserGroup.cs(8,17,8,21): warning CS8618: Non-nullable property 'User' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
+2>C:\King\KingUsers\KingsUsers\Models\UserGroup.cs(11,18,11,23): warning CS8618: Non-nullable property 'Group' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
+2>C:\King\KingUsers\KingsUsers\Models\Permission.cs(6,23,6,37): warning CS8618: Non-nullable property 'PermissionName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
+2>C:\King\KingUsers\KingsUsers\Models\Permission.cs(8,45,8,61): warning CS8618: Non-nullable property 'GroupPermissions' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
+2>C:\King\KingUsers\KingsUsers\Models\GroupPermission.cs(8,18,8,23): warning CS8618: Non-nullable property 'Group' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
+2>C:\King\KingUsers\KingsUsers\Models\GroupPermission.cs(11,23,11,33): warning CS8618: Non-nullable property 'Permission' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
+2>C:\King\KingUsers\KingsUsers\Models\ErrorResponse.cs(5,19,5,26): warning CS8618: Non-nullable property 'Message' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
+2>C:\King\KingUsers\KingsUsers\Models\ErrorResponse.cs(6,19,6,24): warning CS8618: Non-nullable property 'Error' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
+2>C:\King\KingUsers\KingsUsers\Models\PaginationParameters.cs(5,27,5,33): warning CS0649: Field 'PaginationParameters.Offset' is never assigned to, and will always have its default value 0
+2>KingsUsers -> C:\King\KingUsers\KingsUsers\bin\Debug\net6.0\KingsUsers.dll
+2>Done building project "KingsUsers.csproj".
+3>------ Rebuild All started: Project: KingUsersTest, Configuration: Debug Any CPU ------
+1>C:\King\KingUsers\KingUsersApp\Helpers\ApiHelper.cs(41,92,41,96): warning CS8625: Cannot convert null literal to non-nullable reference type.
+3>KingUsersTest -> C:\King\KingUsers\KingUsersTest\bin\Debug\net6.0\KingUsersTest.dll
+1>KingUsersApp -> C:\King\KingUsers\KingUsersApp\bin\Debug\net6.0\KingUsersApp.dll
+1>KingUsersApp (Blazor output) -> C:\King\KingUsers\KingUsersApp\bin\Debug\net6.0\wwwroot
+1>Done building project "KingUsersApp.csproj".
+========== Rebuild All: 3 succeeded, 0 failed, 0 skipped ==========
+========== Rebuild started at 7:42 PM and took 06,692 seconds ==========
