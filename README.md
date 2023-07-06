@@ -76,7 +76,3 @@ KingUsers is licensed under the [MIT License](LICENSE).
 ![Screenshot 1](/Images/DbStructure.png)
 
 
-Here are a few screenshots of the KingUsers application:
-
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
